@@ -1,0 +1,13 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+ndays=90*365
+nweeks=90*52
+nmonths=90*12
+new_age=int(age)
+ldays=(new_age*365)
+lweeks=(new_age*52)
+lmonths=(new_age*12)
+print(f"You have {ndays-ldays} days, {nweeks-lweeks} weeks, and {nmonths-lmonths} months left.")
