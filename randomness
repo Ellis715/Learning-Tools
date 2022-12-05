@@ -1,0 +1,13 @@
+# #askpython.com search 'random module' whole numbers, floating point modules
+
+import random
+# import mymodule
+# #random interger generator
+# random_integer = random.randint(1, 10)
+# print(random_integer)
+# # print((random_integer)*(mymodule.pi))
+# random_float = random.random()
+# #print(random_float)
+# print(random_float * 5)
+score = random.randint(1, 100)
+print(f"your awesomeness score out of 100 is {score}")
