@@ -1,0 +1,14 @@
+year = int(input("Which year do you want to check? "))
+
+year2 = year/4
+year3 = year/100
+year4 = year/400
+
+if year2 != int(year2):
+  print("Not leap year")
+elif year3 == int(year3):
+  print("Leap year")
+elif year4 != int(year4):
+  print("Leap year")
+elif year4 == int(year4):
+  print("Not leap year")
